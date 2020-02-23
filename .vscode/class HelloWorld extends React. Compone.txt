@@ -1,0 +1,20 @@
+class HelloWorld extends React. Component{
+render(){
+    ['Africa','America','Asia','Australia','Europe'];
+         const helloContinents = Array.from (continents, c = >
+         `Hello ${c}!`);
+         const message = helloContinents.join(' ');
+         return (
+             <div title = "Outer div">
+             <h1>{message}</h1>
+             </div>
+         );
+}
+
+}
+const element = <HelloWorld />;
+ReactDOM. render(element,
+document.getElementById('contents'));
+
+//Listing 3-1
+//App.jsx: A Simple React Class and Instance
